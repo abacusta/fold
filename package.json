@@ -44,6 +44,9 @@
     "coffeeify": "^2.1.0"
   },
   "dependencies": {
+    "brfs": "^2.0.2",
+    "browserify-fs": "^1.0.0",
+    "requirejs": "^2.3.6",
     "xmldom": "^0.1.27"
   },
   "browser": {

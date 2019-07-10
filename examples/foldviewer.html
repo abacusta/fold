@@ -4,21 +4,35 @@
 <title>Fold Viewer</title>
 <script type='text/javascript' src='../dist/fold.js'></script>
 <script type='text/javascript'>
-  FOLD = require('fold');
+  FOLD = activatefold('fold');
   window.onload = function(e) {
     view1 = FOLD.viewer.addViewer(document.getElementById('view1'), {
       examples: {
-        'Default': 'simple.fold',
+          'Preliminary Base': 'preliminarybase.fold',
+          'Preliminary Base 3D Half': 'preliminarybase_3d_half.fold',
+          'Preliminary Base 3D Full': 'preliminarybase_3d_full.fold',
+          'Preliminary Base 3D 30': 'preliminarybase_3d_30.fold',
+          'Inverted Base 3D Full': 'invertedbase_3d_full.fold',
+          'variabletes':"variable_preliminarybase.fold",
+        'Simple Fold': 'simple.fold',
         'Flexicube Unit': 'box.fold',
         'Square Twist': 'squaretwist.fold',
       }
     });
   }
 </script>
-</head>
 <body>
 <h3>FOLD Viewer</h3>
 <div id='view1'></div>
 <p style='text-align: right;'>(C) Jason S. Ku 2016</p>
 </body>
+<body>
+<h4>Angle Slider</h4>
+<div class="slidecontainer">
+    <input type="range" min="-90" max="90" value="0" class="slider" id="myRange">
+</div>
+</body>
+
+</head>
+
 </html>
