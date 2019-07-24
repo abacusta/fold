@@ -4,7 +4,11 @@ In this tutorial, we'll walk through the steps of defining a `.fold` file
 that encodes a preliminary base, both its crease pattern and the self-touching
 3D folded form shown below:
 
-xxx figures
+## Preliminary Base Crease Pattern
+<img src="https://i.imgur.com/NkF9OC4.png" alt="Preliminary Base Crease Pattern" width="250" height="250">
+
+## Preliminary Base Folded Form
+<img src="https://imgur.com/zTjDSsa.png" alt="Preliminary Base Folded Form" width="250" height="250">
 
 ## JSON and Metadata
 
