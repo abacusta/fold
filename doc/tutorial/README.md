@@ -5,7 +5,7 @@ that encodes a preliminary base, both its crease pattern and the self-touching
 3D folded form shown below:
 
 ## Preliminary Base Crease Pattern
-<img src="https://i.imgur.com/NkF9OC4.png" alt="Preliminary Base Crease Pattern" width="250" height="250">
+<img src="https://imgur.com/Plyg5C8.png" alt="Preliminary Base Crease Pattern" width="250" height="250">
 
 ## Preliminary Base Folded Form
 <img src="https://imgur.com/zTjDSsa.png" alt="Preliminary Base Folded Form" width="250" height="250">
@@ -112,7 +112,7 @@ coordinates.
 So vertex 0 is at coordinates (&minus;1, &minus;1); vertex 1 is at
 coordinates (0, &minus; 1), etc.
 
-xxx figure
+<img src="https://imgur.com/7Ukabz3.png" alt="Preliminary Base Crease Pattern With Vertices" width="250" height="250">
 
 ### Edges
 
@@ -158,7 +158,7 @@ of all the boundary edges, and the second line consists of all the creases
 (conveniently ordered cyclicly around the central vertex 4).  In general,
 the edges can be listed in any order you want.
 
-xxx figure
+<img src="https://imgur.com/cEIpYeM.png" alt="Preliminary Base Crease Pattern With Vertices and Edges" width="250" height="250">
 
 ### Faces
 
