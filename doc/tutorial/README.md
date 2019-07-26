@@ -8,7 +8,7 @@ that encodes a preliminary base, both its crease pattern and the self-touching
 <img src="https://imgur.com/Plyg5C8.png" alt="Preliminary Base Crease Pattern" width="250" height="250">
 
 ## Preliminary Base Folded Form
-<img src="https://imgur.com/zTjDSsa.png" alt="Preliminary Base Folded Form" width="250" height="250">
+<img src="https://imgur.com/6cOJkaF.png" alt="Preliminary Base Folded Form" width="250" height="250">
 
 ## JSON and Metadata
 
@@ -161,6 +161,16 @@ the edges can be listed in any order you want.
 <img src="https://imgur.com/cEIpYeM.png" alt="Preliminary Base Crease Pattern With Vertices and Edges" width="250" height="250">
 
 ### Faces
+
+Finally let's define the faces in the crease pattern. We specify each face by a list of vertices going around the face in a counterclockwise direction.  For example, upper left triangle of the upper right square of the crease pattern is defined by three vertices.  
+
+<img src="https://imgur.com/CPok396.png" alt="Preliminary Base Crease Pattern With Highlighted Face" width="250" height="250">
+
+So there is an edge connecting
+vertices 0 and 1, an edge connecting vertices 1 and 2, an edge connecting
+vertices 2 and 5, etc.  The complete edge list is given by the following
+FOLD file:
+
 
 xxx manual listing
 
