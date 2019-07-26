@@ -166,9 +166,9 @@ Finally let's define the faces in the crease pattern. We specify each face by a 
 
 <img src="https://imgur.com/CPok396.png" alt="Preliminary Base Crease Pattern With Highlighted Face" width="250" height="250">
 
-So there is an edge connecting
-vertices 0 and 1, an edge connecting vertices 1 and 2, an edge connecting
-vertices 2 and 5, etc.  The complete edge list is given by the following
+As we can see this face is defined by three vertices, 4, 7, and 8. Note that when listed counterclockwise this would be either [8,7,4],[7,4,8], or [4,8,7]. It general, any of the previous lists could be used, as long as the list is in counterclockwise order.
+
+Now that we know how to define a face, we can define all of the faces for our fold file. There are two ways to do this, manually listing them out and an automatic approach.
 FOLD file:
 
 
